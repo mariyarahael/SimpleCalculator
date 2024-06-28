@@ -1,0 +1,62 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="100px"
+    android:text="CALCULATOR"
+    android:textSize="20pt"
+    android:textColor="#39A03D"
+    android:textAlignment="center"/>
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#AAC1EFA0"
+    android:text="ADDITION"
+    android:textColor="@color/black"
+    android:textSize="10pt"
+    android:layout_margin="10px"
+    android:id="@+id/add"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAC1EFA0"
+        android:text="SUBTRACTION"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/sub"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAC1EFA0"
+        android:text="MULTIPLICATION"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/mul"/>
+
+<androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAC1EFA0"
+        android:text="DIVISION"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/div"/>
+
+
+
+
+</LinearLayout>
